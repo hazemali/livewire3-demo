@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+body {
+    font-size: 14px;
+}
+
+* {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.text-info {
+    color: rgba(115, 115, 115, 1);
+}
+
+.sell-button-bg {
+    background: rgba(217, 249, 157, 1);
+}
+
+.primary-border {
+    border: 2px solid rgba(217, 249, 157, 1);
+}
+
+.error {
+    color: darkred;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@tailwind utilities;
