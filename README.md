@@ -42,10 +42,16 @@ This project is built with Laravel 11, Livewire 3 and Tailwind CSS.
 6. **Run database migrations**
     This will create the necessary tables in your database.
     ```php
-    php artisan migrate
+    php artisan migrate:fresh --seed
     ```
 
-7. **Start the Local Development Server**
+7. **Create symbolic link for storage**
+    To make files in the storage accessible from the web, a symbolic link can be created using this command:
+    ```php
+    php artisan storage:link
+    ```
+
+8. **Start the Local Development Server**
     You can start the Laravel development server by running:
     ```php
     php artisan serve

@@ -73,6 +73,7 @@ class ProductsFilter
             return $this->builder;
         }
         $sortByOptions = [
+            'recently' => ['sort' => 'created_at', 'direction' => 'desc'],
             'a-z' => ['sort' => 'title', 'direction' => 'asc'],
             'z-a' => ['sort' => 'title', 'direction' => 'desc'],
             'price-asc' => ['sort' => 'price', 'direction' => 'asc'],

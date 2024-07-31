@@ -8,6 +8,7 @@ class SortByBox extends Component
 {
 
     public array $options = [
+        ['value' => 'recently', 'title' => 'Recently added'],
         ['value' => 'a-z', 'title' => 'A - Z'],
         ['value' => 'z-a', 'title' => 'Z - A'],
         ['value' => 'price-asc', 'title' => 'Price: Low to High'],
