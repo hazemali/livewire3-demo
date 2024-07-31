@@ -6,12 +6,12 @@ This project is built with Laravel 11, Livewire 3 and Tailwind CSS.
 
 1. **Clone the repository**
     ```php
-    git clone <repository-url>
+    git clone git@github.com:hazemali/livewire3-demo.git
     ```
    
 2. **Navigate to the project directory**
     ```php
-    cd <project-directory>
+    cd livewire3-demo
     ```
    
 3. **Install dependencies**
